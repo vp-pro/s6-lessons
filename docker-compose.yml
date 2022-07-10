@@ -17,7 +17,7 @@ services:
     volumes:
       - mydb:/var/lib/postgresql
       - mylessons:/lessons
-      - ./dags/:/lessons/dags
+      - ./dags:/lessons/dags
 
 volumes:
   mydb:

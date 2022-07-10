@@ -31,7 +31,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 Запустите docker-compose:
-`docker-compose up -d`
+`docker compose up -d`
 
 Если у Вас не установлен python 3.8 то самое время сделать это. 
 
