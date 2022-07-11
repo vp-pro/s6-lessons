@@ -18,7 +18,7 @@ def submit(t_code, rlz_file=''):
             "test": t_code
             })
 
-    print(r.json()['stderr'].replace('__test',rlz_file[:3]))
+    print(r.json()['stderr'].replace('__test',rlz_file[:-3]))
     print(r.json()['stdout'].replace('__test',rlz_file[:-3]))
 
 if __name__ == '__main__':

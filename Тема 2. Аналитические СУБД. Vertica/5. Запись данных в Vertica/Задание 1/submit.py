@@ -17,15 +17,12 @@ def submit(t_code, rlz_file=''):
             "code": user_code,
             "test": t_code
             })
-    if 'sql' in rlz_file:
-        print(r.json()['stderr'].replace('__test',rlz_file[:-4]).replace('.py','.sql'))
-        print(r.json()['stdout'].replace('__test',rlz_file[:-4]).replace('.py','.sql'))
-    else:
-        print(r.json()['stderr'].replace('__test',rlz_file[:-3]))
-        print(r.json()['stdout'].replace('__test',rlz_file[:-3]))
+
+    print(r.json()['stderr'].replace('__test',rlz_file[:-3]))
+    print(r.json()['stdout'].replace('__test',rlz_file[:-3]))
 
 if __name__ == '__main__':
     submit(
-        'de06020302',
-        'realization.sql'
+        'de06020501',
+        'realization.py'
     )
