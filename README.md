@@ -2,7 +2,7 @@
 
 * Скопируйте проект в директорию:
 ```shell script
-git clone https://github.com/practicum-de/s6essons.git
+git clone https://github.com/practicum-de/s6-lessons.git
 ```
 * Перейдите в директорию c проектом:
 ```shell script
