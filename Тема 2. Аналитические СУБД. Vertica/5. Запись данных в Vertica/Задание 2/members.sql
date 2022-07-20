@@ -1,4 +1,4 @@
-CREATE TABLE users
+CREATE TABLE members
 (
     id int NOT NULL,
     gender char,
