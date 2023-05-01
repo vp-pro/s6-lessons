@@ -40,4 +40,6 @@ Metabse - http://localhost:3333/
 
 Если в Metabase на шаге выбора БД отсутствует опция Vertica, проверьте логи на вкладке "Разрешение проблем". Скорее всего вы найдете сообщение "java.lang.AssertionError: Assert failed: Metabase does not have permissions to write to plugins directory /plugins". В таком случае в папке с репозиторием (в которой должна находиться папка plugins) выполните команду `chmod -R 777 plugins` после чего перезапустите контейнер с Metabase - `docker restart s6-lessons_metabase_1`.
 
+В DBeaver рекомендуется использовать драйвер 11.1, если подключение не устанавливается то 12.0.4.
+
 Перед запуском тестов убедитесь что запущен контейнер.
