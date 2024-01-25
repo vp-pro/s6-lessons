@@ -9,7 +9,7 @@ services:
       - ./plugins/:/plugins
 
   de-sprint-6:
-    image: cr.yandex/crp1r8pht0n0gl25aug1/de-sprint-6:latest
+    image: cr.yandex/crp1r8pht0n0gl25aug1/de-sprint-6:v2024-01-25r2
     ports:
       - 3000:3000
       - 3002:3002

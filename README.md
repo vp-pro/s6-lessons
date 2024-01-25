@@ -43,3 +43,9 @@ Metabse - http://localhost:3333/
 В DBeaver рекомендуется использовать драйвер 11.1, если подключение не устанавливается то 12.0.4.
 
 Перед запуском тестов убедитесь что запущен контейнер.
+
+Остановка и очистка:
+```bash
+docker compose down
+docker volume rm s6-lessons_mydb s6-lessons_mylessons
+```
