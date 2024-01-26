@@ -46,6 +46,5 @@ Metabse - http://localhost:3333/
 
 Остановка и очистка:
 ```bash
-docker compose down
-docker volume rm s6-lessons_mydb s6-lessons_mylessons
+docker compose down --volumes --rmi all
 ```
