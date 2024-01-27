@@ -11,4 +11,3 @@ where hk_user_id in (select hk_user_id
 group by age
 order by 2 desc
 
-w8O8Nzx3eJ
