@@ -130,7 +130,6 @@ dmypy.json
 
 # macOS
 .DS_Store
-dags
 .vscode/settings.json
 members.csv
 test_dataset.csv
