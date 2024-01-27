@@ -18,6 +18,7 @@ services:
       - mydb:/var/lib/postgresql
       - mylessons:/lessons
       - ./dags:/lessons/dags
+      - ./data:/data
 
 volumes:
   mydb:

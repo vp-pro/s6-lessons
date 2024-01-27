@@ -132,3 +132,10 @@ dmypy.json
 .DS_Store
 dags
 .vscode/settings.json
+members.csv
+test_dataset.csv
+data/dialogs.csv
+data/group_log.csv
+data/groups.csv
+data/users.csv
+dialogs.csv

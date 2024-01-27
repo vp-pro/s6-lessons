@@ -1,11 +1,10 @@
-Прекод
-create table dialogs
+CREATE TABLE STV2023121113.dialogs
 (
-    message_id   int PRIMARY KEY,
-    message_ts   timestamp(6),
-    message_from int REFERENCES users(id),
-    message_to int REFERENCES users(id),
-    message varchar(1000),
-    message_type varchar(100)
+    message_id   INT PRIMARY KEY,
+    message_ts   TIMESTAMP(6),
+    message_from INT REFERENCES members(id),
+    message_to   INT REFERENCES members(id),
+    message      VARCHAR(1000),
+    message_type VARCHAR(100)
 )
-SEGMENTED BY hash(ХХХХ) all nodes
+SEGMENTED BY hash(message_id) ALL NODES;
